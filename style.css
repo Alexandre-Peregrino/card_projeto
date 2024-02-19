@@ -4,21 +4,21 @@
 }
 
 main{
- width: auto;
+ max-width: 1200px;
  margin-top: 0;
 }
-.produto1{
-    position: absolute;
+.produto{
+    display: inline-block;
     margin: 10px auto auto 5px;
-    width: auto;
+    width: 200px;
     background-color: #d11717;
     border-radius: 8px;
     box-shadow: o 4px 8px rgba(0, 0, 0, 0.1);
 
 }
-.produto1 img{
+.produto img{
     width: 100%;
-    height: auto;
+    height: 200px;
     border-bottom: 1px solid #1a1919;
 
 }
